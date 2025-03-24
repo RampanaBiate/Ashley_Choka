@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".ProfilePage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@drawable/arrow" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Edit Profile"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_id"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:src="@drawable/woman"
+
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="66dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Profile details"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginStart="40dp"
+                android:textSize="16sp"
+                android:text="Name"
+                />
+
+
+            <TextView
+
+                android:id="@+id/profilename_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:paddingStart="10dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="40dp"
+                android:textColor="#424242"
+                android:background="@drawable/custom_edittext"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:textSize="16sp"
+                android:text="Email"
+                />
+
+            <TextView
+                android:id="@+id/profileemail_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:paddingStart="10dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="40dp"
+                android:textColor="#424242"
+                android:background="@drawable/custom_edittext"
+
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:textSize="16sp"
+                android:text="Phone No"
+                />
+            <TextView
+                android:id="@+id/profilephone_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:paddingStart="10dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="40dp"
+                android:textColor="#424242"
+                android:background="@drawable/custom_edittext"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:textSize="16sp"
+                android:text="Id"
+                />
+            <TextView
+                android:id="@+id/profile_uid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:textSize="10sp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:paddingStart="10dp"
+                android:textColor="#424242"
+                android:gravity="center_vertical"
+                android:background="@drawable/custom_edittext"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="Edit"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

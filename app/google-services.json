@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32905511107",
+    "project_id": "mizochawhmeh",
+    "storage_bucket": "mizochawhmeh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32905511107:android:33418008fa03f766a36276",
+        "android_client_info": {
+          "package_name": "com.kailawn.recipe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5t2fMKpvKFWFtsBb51M-HMs8w094F3Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
